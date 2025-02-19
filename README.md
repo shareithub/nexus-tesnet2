@@ -16,3 +16,11 @@ sudo bash -c "rm -f nexus2.sh && curl -fsSL -o nexus2.sh https://raw.githubuserc
 After Done , out screen :
 
 CTRL + A + D
+
+
+
+# Dont forget to Join my Channel :
+
+[TELEGRAM CHANNEL](https://t.me/SHAREITHUB_COM)
+
+[YOUTUBE CHANNEL](https://youtube.com/@shareithub_com)
