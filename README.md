@@ -12,6 +12,7 @@ Install pkg-config :
 sudo apt update
 sudo apt install -y pkg-config libssl-dev
 sudo apt install pkg-config
+sudo apt install -y protobuf-compiler
 ```
 
 Copy & Paste this code in your teminal :
