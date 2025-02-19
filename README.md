@@ -13,6 +13,8 @@ sudo apt update
 sudo apt install -y pkg-config libssl-dev
 sudo apt install pkg-config
 sudo apt install -y protobuf-compiler
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+rustup target add riscv32i-unknown-none-elf
 ```
 
 Copy & Paste this code in your teminal :
