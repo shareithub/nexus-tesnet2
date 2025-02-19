@@ -7,6 +7,10 @@ Create screen :
 ```
 screen -S nexus
 ```
+Install pkg-config :
+```
+sudo apt install pkg-config
+```
 
 Copy & Paste this code in your teminal :
 ```
