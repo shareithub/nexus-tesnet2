@@ -9,6 +9,8 @@ screen -S nexus
 ```
 Install pkg-config :
 ```
+sudo apt update
+sudo apt install -y pkg-config libssl-dev
 sudo apt install pkg-config
 ```
 
