@@ -7,22 +7,7 @@ Create screen :
 ```
 screen -S nexus
 ```
-Install pkg-config :
-```
-sudo apt update
-sudo apt install -y pkg-config libssl-dev
-sudo apt install pkg-config
-sudo apt install -y protobuf-compiler
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-rustup target add riscv32i-unknown-none-elf
-sudo apt update && sudo apt upgrade
-sudo apt install build-essential pkg-config libssl-dev git-all
-```
 
-Copy & Paste this :
-```
-sudo fallocate -l 10G /swapfile && sudo chmod 600 /swapfile && sudo mkswap /swapfile && sudo swapon /swapfile && echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab && sudo sysctl vm.swappiness=100 && echo 'vm.swappiness=100' | sudo tee -a /etc/sysctl.conf
-```
 
 Copy & Paste this code in your teminal :
 ```
@@ -32,8 +17,6 @@ sudo bash -c "rm -f nexus2.sh && curl -fsSL -o nexus2.sh https://raw.githubuserc
 After Done , out screen :
 
 CTRL + A + D
-
-
 
 # Dont forget to Join my Channel :
 
