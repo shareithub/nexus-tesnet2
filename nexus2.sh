@@ -2,7 +2,7 @@
 # Periksa apakah skrip dijalankan sebagai pengguna root 
 if [ "$(id -u)" != "0" ]; then
     echo "Skrip ini harus dijalankan dengan izin pengguna root."
-    echo "Silakan coba gunakan perintah 'Gunakan sudo -i' untuk beralih ke pengguna root, lalu jalankan skrip ini lagi."
+    echo "Silakan coba gunakan perintah 'sudo -i' untuk beralih ke pengguna root, lalu jalankan skrip ini lagi."
     exit 1
 fi
 
@@ -19,6 +19,7 @@ echo "𝘋𝘰𝘯'𝘵 𝘧𝘰𝘳𝘨𝘦𝘵 𝘵𝘰 𝘫𝘰𝘪𝘯 𝘰�
 echo "Telegram: https://t.me/SHAREITHUB_COM"
 echo "Youtube: https://www.youtube.com/@SHAREITHUB_COM"
 echo "Repo Github: https://github.com/shareithub/"
+
 sleep 5
 
 # 1. Install Build Essential
